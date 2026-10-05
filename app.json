@@ -2,7 +2,7 @@
   "expo": {
     "name": "Ordu Mümessilleri",
     "slug": "ilk-temiz-uygulamam",
-    "version": "1.0.0",
+    "version": "1.1.8",
     "orientation": "default",
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
@@ -19,7 +19,8 @@
         "foregroundImage": "./assets/logo.png",
         "monochromeImage": "./assets/logo.png"
       },
-      "package": "com.cengizgunduz.ordumumessilleri"
+      "package": "com.cengizgunduz.ordumumessilleri",
+      "versionCode": 19
     },
     "web": {
       "favicon": "./assets/logo.png"
@@ -30,6 +31,16 @@
         {
           "androidAppId": "ca-app-pub-8577494064582289~8019317128",
           "iosAppId": "ca-app-pub-8577494064582289~8019317128"
+        }
+      ],
+      "expo-web-browser",
+      "expo-sharing",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true
+          }
         }
       ]
     ],
